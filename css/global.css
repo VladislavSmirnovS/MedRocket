@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  color: var(--color--default);
+}
+
+body {
+  background-color: var(--white);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 50px auto 0 auto;
+}
+
+.root {
+  position: relative;
+  min-height: 41.333rem;
+}
+
+.fontStyle--theme--strong {
+  font-weight: 700;
+  font-size: 1.222rem;
+}
+
+.fontStyle--theme--bold {
+  font-weight: 500;
+  font-size: 1.222rem;
+}
+
+.fontStyle--theme--small {
+  font-size: 0.778rem;
+  line-height: 150%;
+  color: var(--color--album-title);
+}
+
+.padding--left-first {
+  padding-left: 3.11rem;
+}
+
+.padding--left-second {
+  padding-left: 2.722rem;
+}

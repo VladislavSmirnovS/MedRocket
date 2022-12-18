@@ -1,0 +1,9 @@
+.nav {
+  width: 100%;
+}
+
+.nav__list {
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: minmax(auto, 60px);
+}

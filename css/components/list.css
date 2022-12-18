@@ -1,0 +1,65 @@
+.list {
+  overflow: hidden;
+  position: relative;
+}
+
+.list-album {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 150px));
+  grid-auto-rows: minmax(150px, 150px);
+  grid-gap: 42px;
+}
+
+.list__block {
+  display: flex;
+  width: 100%;
+  min-height: 80px;
+  align-items: center;
+}
+
+.list__drop-down {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  pointer-events: none;
+}
+
+.list__drop-down span:nth-child(1) {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 14px;
+  width: 2px;
+  background-color: var(--white);
+  transition: all 0.5s ease;
+}
+
+.list__drop-down span:nth-child(2) {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 14px;
+  background-color: var(--white);
+  transition: all 0.5s ease;
+}
+
+.list__text {
+  width: 100%;
+  padding-left: 22px;
+  pointer-events: none;
+}
+
+.child-click {
+  transition: all 0.2s linear;
+}
+
+.list-album.favorites {
+  grid-auto-rows: minmax(150px, auto) !important;
+  padding: 56px;
+}

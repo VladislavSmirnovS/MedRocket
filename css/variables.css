@@ -1,0 +1,10 @@
+:root {
+  --font: 'Roboto', sans-serif;
+  --max-width: 41.333rem;
+  --black: #000;
+  --white: #fff;
+  --color--default: #1C1C1C;
+  --color--album-title: #787878;
+  --color--btn-active: #EDF9FF;
+  --blue: #117DC1;
+}
